@@ -1,0 +1,78 @@
+
+body{
+  /* background-image:url("https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+  /* background-image:url("https://images.pexels.com/photos/5538346/pexels-photo-5538346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+  background-image: url("https://images.pexels.com/photos/3471028/pexels-photo-3471028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100hv;
+  color: rgb(31, 4, 55);
+
+}
+.navbar{
+  opacity: 0.5;
+  font-size: large;
+  
+  
+  
+}
+.nav-item{
+  color: black;
+}
+.nav-shift {
+  margin-left: 350px;
+}
+.nav-link: hover {
+  color: yellow;
+}
+.navbar-brand {
+  font-size: xx-large;
+}
+.btn-join {
+  background-color: #990531;
+  border-radius: 50px;
+}
+.description {
+  text-align: left;
+  width: 40%;
+}
+.description h5 {
+  margin-top: 50px;
+  padding: 15px 0px;
+}
+.carousel {
+  padding: 30px;
+}
+.carousel-item p {
+  padding: 30px 30px 50px 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.carousel-item {
+  padding: 20px;
+  text-align: center;
+}
+.carousel-inner {
+  width: 25%;
+  height: 200px;
+  background-color: #990531;
+  color: aliceblue;
+  border-radius: 7%;
+  padding-left: 0;
+}
+.content {
+  padding: 20px 70px;
+}
+
+.nav-link{
+  color:white;
+}
+.dropdown-item{
+  color:black;
+}
+.dropdown-item:hover{
+  color:orange;
+}
+.nav-link:hover{
+  color:orange;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hello KMIT</p>
+    <div id="NGIT-display">
+     <button onclick="display()">Check</button>
+    </div>
+    <script>
+       
+    function display() {
+      var x = document.createElement("div");
+      var y = document.createTextNode("NGIT");
+      var b = document.createElement("br");
+      x.appendChild(y);
+      x.appendChild(b);
+      var z = document.createTextNode("NGIT");
+      x.appendChild(z);
+      var z = document.getElementById("NGIT-display");
+      document.body.insertBefore(x,z);  
+    }
+    </script>
+    
+</body>
+</html>
